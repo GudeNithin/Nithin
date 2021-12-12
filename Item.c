@@ -2,7 +2,7 @@
 int main()
 {
     int choice=0;
-    printf("choose\n1.PIZZA\n2.BURGER\n3.PASTA\n4.FRENCH FRIES\n5.SANDWISH\n");
+    printf("choose\n1.PIZZA\n2.BURGER\n3.PASTA\n4.FRENCH FRIES\n5.SANDWITCH\n");
     scanf("%d",&choice);
     switch(choice)
     {
@@ -14,7 +14,7 @@ int main()
                 break;
         case 4: printf("ITEM NAME IS FRENCH FRIES\nPRICE IS RS-99\n"); 
                 break;
-        case 5: printf("ITEM NAME IS SANDWISH\nPRICE IS RS-149\n"); 
+        case 5: printf("ITEM NAME IS SANDWITCH\nPRICE IS RS-149\n"); 
                 break;
         default: printf("SORRY...YOU ENTERED A WRONG CHOICE"); 
         return 0;
